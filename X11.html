@@ -1,0 +1,598 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:og="http://opengraphprotocol.org/schema/" style="height:100%;">
+   <head>
+      <title>	Free Online Football Manager Game - Xpert Eleven</title>
+      <link href="styles/teammenu.css?v=8" type="text/css" rel="stylesheet" />
+      <link href="styles/buttons.css?v=15" type="text/css" rel="stylesheet" />
+      <link href="styles/facebook.css?v=3" type="text/css" rel="stylesheet" />
+      <link href="styles/twitter.css?v=4" type="text/css" rel="stylesheet" />
+      <link href="JavaScript/joyride/joyride-2.0.3.css?v=4" type="text/css" rel="stylesheet" />
+      <script src="JavaScript/jquery-1.11.0.js"  type="text/javascript"></script><!--<script src="JavaScript/jquery-1.10.2.min.js"  type="text/javascript"></script>--><script src="JavaScript/jquery-ui-1.10.4.custom.js"  type="text/javascript"></script><script src="JavaScript/jquery-migrate-1.2.1.js" type="text/javascript"></script><script src="JavaScript/jquery.ui.touch-punch.min.js" type="text/javascript"></script><script src="JavaScript/ie-fixes.js" type="text/javascript"></script>                        <!-- For Main.Master scripts --><script type="text/javascript" language="javascript" src="/Ajax/LanguageHandler.ashx?t=r"></script>		<script id="JSXpert" src="jscripts/jsPlayers_ver1.js?v=21" type="text/javascript"></script>				
+      <link media="all" rel="stylesheet" type="text/css" href="styles/all.css?v=5" />
+      <link href="styles/player.css?v=4" type="text/css" rel="stylesheet" />
+      <link href="styles/flarpar.css?v=2" type="text/css" rel="stylesheet" />
+      <link href="styles/box.css?v=3" type="text/css" rel="stylesheet" />
+      <link href="App_Themes/Main/CommunityAdmin.css" type="text/css" rel="stylesheet" />
+      <link href="App_Themes/Main/CommunityMain.css" type="text/css" rel="stylesheet" />
+      <link href="App_Themes/Main/jquery-ui-1.10.4.custom.css" type="text/css" rel="stylesheet" />
+      <link href="App_Themes/Main/jquery-ui-1.8.11.custom.css" type="text/css" rel="stylesheet" />
+      <link href="App_Themes/Main/Main_v19.css" type="text/css" rel="stylesheet" />
+      <link href="App_Themes/Main/Main2_v3.css" type="text/css" rel="stylesheet" />
+      <link href="App_Themes/Main/new_Menu_v10.css" type="text/css" rel="stylesheet" />
+      <link href="App_Themes/Main/new_Menu_v10_10.css" type="text/css" rel="stylesheet" />
+      <script type="text/javascript" language="javascript" src="/JavaScript/jquery.rotate.js"></script>
+      <meta name="description" content="A free online football manager game where you can try your skills against the football community around the world. The game focus on coaching football. It&#39;s easy to play but hard to master!" />
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+      <meta name="robots" content="noodp" />
+      <script type="text/javascript" language="javascript" src="/JavaScript/LogInCheck.js"></script>
+   </head>
+   <body id="ctl00_Body" style="height:100%;">
+      <form name="aspnetForm" method="post" action="/players.aspx?TeamID=1027839&amp;Boost=0&amp;dh=2" id="aspnetForm" style="height:100%;">
+         <div><input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTkxNDgxOTg3Ng9kFgJmD2QWAgIDD2QWAmYQZGQWHAICDw8WAh4HVmlzaWJsZWhkZAIDDxYCHgtfIUl0ZW1Db3VudAIFFgoCAQ9kFgYCAQ8PFgQeCEltYWdlVXJsZR8AaGRkAgMPDxYEHgRUZXh0BQRIb21lHgtOYXZpZ2F0ZVVybAUQL2Zyb250X25ldzMuYXNweGRkAgUPFgIfAQL/////D2QCAg9kFgYCAQ8PFgQfAmUfAGhkZAIDDw8WBB8DBQRKb2luHwQFEi9yZWdpc3RlclVzZXIuYXNweGRkAgUPFgIfAQL/////D2QCAw9kFgYCAQ8PFgQfAmUfAGhkZAIDDw8WBB8DBQhUaGUgR2FtZR8EBRJqYXZhc2NyaXB0OnZvaWQoMClkZAIFDxYCHwECBBYIAgEPZBYEAgEPDxYEHwMFDEhhbGwgT2YgRmFtZR8EBRAvaGFsbG9mZmFtZS5hc3B4ZGQCAw8WAh8BAv////8PZAICD2QWBAIBDw8WBB8DBQ1YcGVydCBsZWFndWVzHwQFEi94cGVydExlYWd1ZXMuYXNweGRkAgMPFgIfAQL/////D2QCAw9kFgQCAQ8PFgQfAwUWWHBlcnQgQ2hhbXBpb25zIExlYWd1ZR8EBSN+L3N0YW5kaW5ncy5hc3B4P0xpZD0xMTEmTG5yPTEmZGg9MWRkAgMPFgIfAQL/////D2QCBA9kFgQCAQ8PFgQfAwULWHBlcnQgRGFpbHkfBAUQL3hwZXJ0ZGFpbHkuYXNweGRkAgMPFgIfAQL/////D2QCBA9kFgYCAQ8PFgQfAmUfAGhkZAIDDw8WBB8DBQtTY3JlZW5zaG90cx8EBREvc2NyZWVuc2hvdHMuYXNweGRkAgUPFgIfAQL/////D2QCBQ9kFgYCAQ8PFgQfAmUfAGhkZAIDDw8WBB8DBQRIZWxwHwQFEmphdmFzY3JpcHQ6dm9pZCgwKWRkAgUPFgIfAQIDFgYCAQ9kFgQCAQ8PFgQfAwUFUnVsZXMfBAUVL3J1bGVyLmFzcHg/UnVsZUlEPTM0ZGQCAw8WAh8BAv////8PZAICD2QWBAIBDw8WBB8DBQVGLkEuUR8EBREvZmFxLmFzcHg/Q2F0SUQ9MWRkAgMPFgIfAQL/////D2QCAw9kFgQCAQ8PFgQfAwUQRm9yZ290IFBhc3N3b3JkPx8EBRAvZm9yZ290UGFzcy5hc3B4ZGQCAw8WAh8BAv////8PZAIKDw8WAh8AaGRkAgsPZBYCAgEPDxYCHwQFEC9mcm9udF9uZXczLmFzcHhkZAIMD2QWDAIBD2QWAmYPZBYCAg0PZBYEAgEPDxYCHwBoZBYCZg8PFgIfAwUTTG9naW4gd2l0aCBGYWNlYm9va2RkAgMPDxYEHwQFF34vRmFjZWJvb2tMb2dpbk5ldy5hc3B4HwBnZBYCZg8PFgIfAwUTTG9naW4gd2l0aCBGYWNlYm9va2RkAgMPDxYCHwMFDk1lbWJlcnMgb25saW5lZGQCBQ8PFgIfAwUFMiA3NTZkZAIJDw8WAh8DBQdFbmdsaXNoZGQCCw8PFgIfAgUYL2ltYWdlcy9ib3R0b21fYXJyb3cuZ2lmZGQCDQ8WAh8BAhIWJGYPZBYCAgEPDxYCHwQFMi9wbGF5ZXJzLmFzcHg/VGVhbUlEPTEwMjc4MzkmQm9vc3Q9MCZkaD0yJnBsYW5nPUJHZBYEAgEPDxYCHwIFJ2h0dHA6Ly9pbWcueHBlcnRlbGV2ZW4uY29tL2ZsYWdzL0JHLmdpZmRkAgIPDxYCHwMFCUJ1bGdhcmlhbmRkAgEPZBYCAgEPDxYCHwQFMi9wbGF5ZXJzLmFzcHg/VGVhbUlEPTEwMjc4MzkmQm9vc3Q9MCZkaD0yJnBsYW5nPURBZBYEAgEPDxYCHwIFJ2h0dHA6Ly9pbWcueHBlcnRlbGV2ZW4uY29tL2ZsYWdzL0RLLmdpZmRkAgIPDxYCHwMFBkRhbmlzaGRkAgIPZBYCAgEPDxYCHwQFMi9wbGF5ZXJzLmFzcHg/VGVhbUlEPTEwMjc4MzkmQm9vc3Q9MCZkaD0yJnBsYW5nPU5MZBYEAgEPDxYCHwIFJ2h0dHA6Ly9pbWcueHBlcnRlbGV2ZW4uY29tL2ZsYWdzL05MLmdpZmRkAgIPDxYCHwMFBUR1dGNoZGQCAw9kFgICAQ8PFgIfBAUyL3BsYXllcnMuYXNweD9UZWFtSUQ9MTAyNzgzOSZCb29zdD0wJmRoPTImcGxhbmc9RklkFgQCAQ8PFgIfAgUnaHR0cDovL2ltZy54cGVydGVsZXZlbi5jb20vZmxhZ3MvRkkuZ2lmZGQCAg8PFgIfAwUHRmlubmlzaGRkAgQPZBYCAgEPDxYCHwQFMi9wbGF5ZXJzLmFzcHg/VGVhbUlEPTEwMjc4MzkmQm9vc3Q9MCZkaD0yJnBsYW5nPUZSZBYEAgEPDxYCHwIFJ2h0dHA6Ly9pbWcueHBlcnRlbGV2ZW4uY29tL2ZsYWdzL0ZSLmdpZmRkAgIPDxYCHwMFBkZyZW5jaGRkAgUPZBYCAgEPDxYCHwQFMi9wbGF5ZXJzLmFzcHg/VGVhbUlEPTEwMjc4MzkmQm9vc3Q9MCZkaD0yJnBsYW5nPURFZBYEAgEPDxYCHwIFJ2h0dHA6Ly9pbWcueHBlcnRlbGV2ZW4uY29tL2ZsYWdzL0RFLmdpZmRkAgIPDxYCHwMFBkdlcm1hbmRkAgYPZBYCAgEPDxYCHwQFMi9wbGF5ZXJzLmFzcHg/VGVhbUlEPTEwMjc4MzkmQm9vc3Q9MCZkaD0yJnBsYW5nPUhVZBYEAgEPDxYCHwIFJ2h0dHA6Ly9pbWcueHBlcnRlbGV2ZW4uY29tL2ZsYWdzL0hVLmdpZmRkAgIPDxYCHwMFCUh1bmdhcmlhbmRkAgcPZBYCAgEPDxYCHwQFMi9wbGF5ZXJzLmFzcHg/VGVhbUlEPTEwMjc4MzkmQm9vc3Q9MCZkaD0yJnBsYW5nPU1TZBYEAgEPDxYCHwIFJ2h0dHA6Ly9pbWcueHBlcnRlbGV2ZW4uY29tL2ZsYWdzL01ZLmdpZmRkAgIPDxYCHwMFCU1hbGF5c2lhbmRkAggPZBYCAgEPDxYCHwQFMi9wbGF5ZXJzLmFzcHg/VGVhbUlEPTEwMjc4MzkmQm9vc3Q9MCZkaD0yJnBsYW5nPU1UZBYEAgEPDxYCHwIFJ2h0dHA6Ly9pbWcueHBlcnRlbGV2ZW4uY29tL2ZsYWdzL01ULmdpZmRkAgIPDxYCHwMFB01hbHRlc2VkZAIJD2QWAgIBDw8WAh8EBTIvcGxheWVycy5hc3B4P1RlYW1JRD0xMDI3ODM5JkJvb3N0PTAmZGg9MiZwbGFuZz1OT2QWBAIBDw8WAh8CBSdodHRwOi8vaW1nLnhwZXJ0ZWxldmVuLmNvbS9mbGFncy9OTy5naWZkZAICDw8WAh8DBQlOb3J3ZWdpYW5kZAIKD2QWAgIBDw8WAh8EBTIvcGxheWVycy5hc3B4P1RlYW1JRD0xMDI3ODM5JkJvb3N0PTAmZGg9MiZwbGFuZz1QTGQWBAIBDw8WAh8CBSdodHRwOi8vaW1nLnhwZXJ0ZWxldmVuLmNvbS9mbGFncy9QTC5naWZkZAICDw8WAh8DBQZQb2xpc2hkZAILD2QWAgIBDw8WAh8EBTIvcGxheWVycy5hc3B4P1RlYW1JRD0xMDI3ODM5JkJvb3N0PTAmZGg9MiZwbGFuZz1QVGQWBAIBDw8WAh8CBSdodHRwOi8vaW1nLnhwZXJ0ZWxldmVuLmNvbS9mbGFncy9QVC5naWZkZAICDw8WAh8DBQpQb3J0dWd1ZXNlZGQCDA9kFgICAQ8PFgIfBAUyL3BsYXllcnMuYXNweD9UZWFtSUQ9MTAyNzgzOSZCb29zdD0wJmRoPTImcGxhbmc9Uk9kFgQCAQ8PFgIfAgUnaHR0cDovL2ltZy54cGVydGVsZXZlbi5jb20vZmxhZ3MvUk8uZ2lmZGQCAg8PFgIfAwUIUm9tYW5pYW5kZAIND2QWAgIBDw8WAh8EBTIvcGxheWVycy5hc3B4P1RlYW1JRD0xMDI3ODM5JkJvb3N0PTAmZGg9MiZwbGFuZz1TUmQWBAIBDw8WAh8CBSdodHRwOi8vaW1nLnhwZXJ0ZWxldmVuLmNvbS9mbGFncy9SUy5naWZkZAICDw8WAh8DBQdTZXJiaWFuZGQCDg9kFgICAQ8PFgIfBAUyL3BsYXllcnMuYXNweD9UZWFtSUQ9MTAyNzgzOSZCb29zdD0wJmRoPTImcGxhbmc9U0xkFgQCAQ8PFgIfAgUnaHR0cDovL2ltZy54cGVydGVsZXZlbi5jb20vZmxhZ3MvU0kuZ2lmZGQCAg8PFgIfAwUJU2xvdmVuaWFuZGQCDw9kFgICAQ8PFgIfBAUyL3BsYXllcnMuYXNweD9UZWFtSUQ9MTAyNzgzOSZCb29zdD0wJmRoPTImcGxhbmc9RVNkFgQCAQ8PFgIfAgUnaHR0cDovL2ltZy54cGVydGVsZXZlbi5jb20vZmxhZ3MvRVMuZ2lmZGQCAg8PFgIfAwUHU3BhbmlzaGRkAhAPZBYCAgEPDxYCHwQFMi9wbGF5ZXJzLmFzcHg/VGVhbUlEPTEwMjc4MzkmQm9vc3Q9MCZkaD0yJnBsYW5nPVNWZBYEAgEPDxYCHwIFJ2h0dHA6Ly9pbWcueHBlcnRlbGV2ZW4uY29tL2ZsYWdzL1NFLmdpZmRkAgIPDxYCHwMFB1N3ZWRpc2hkZAIRD2QWAgIBDw8WAh8EBTIvcGxheWVycy5hc3B4P1RlYW1JRD0xMDI3ODM5JkJvb3N0PTAmZGg9MiZwbGFuZz1UUmQWBAIBDw8WAh8CBSdodHRwOi8vaW1nLnhwZXJ0ZWxldmVuLmNvbS9mbGFncy9UUi5naWZkZAICDw8WAh8DBQdUdXJraXNoZGQCDQ9kFgYCDA9kFgQCAw8PFgIfAwUHTGVhZ3VlOmRkAgcPDxYCHwMFB1NlcmllczpkZAJID2QWAmYPDxYCHgdUb29sVGlwZGQWBGYPDxYEHghDc3NDbGFzcwUVYmlnX2J1dHRvbl9sb2JieV9ibHVlHgRfIVNCAgJkFgJmD2QWBGYPDxYCHwMFBkxlYWd1ZWRkAgEPDxYCHwMFC0xlYWd1ZSBtZW51ZGQCAQ8PFgQfBgUVYmlnX2J1dHRvbl9sb2JieV9ibHVlHwcCAmRkAkoPZBYCZg8PFgIfBWRkFgRmDw8WBB8GBRViaWdfYnV0dG9uX2xvYmJ5X2JsdWUfBwICZBYCZg9kFgRmDw8WAh8DBQNDdXBkZAIBDw8WAh8AaGRkAgEPDxYEHwYFFWJpZ19idXR0b25fbG9iYnlfYmx1ZR8HAgJkZAIODxYEHgVjbGFzcwUUTWFpbkNvbnRlbnRDZW50ZXJOZXceBXN0eWxlBQ13aWR0aDoxMDI0cHg7FgICAQ9kFgICAQ8WBB8IBRFDb250ZW50UGxhY2VMb2JieR8JBQ13aWR0aDoxMDI0cHg7FgICAw9kFgQCBA8PFgIfAwUPMTMgOTM4IDgxOSBlY29uZGQCBw8WAh8AaBYCAgMPZBYCAgEPDxYCHwMFjw48Yj5QbGF5ZXI8L2I+PGJyPlRoZSBwbGF5ZXIncyBza2lsbCBpcyB0aGUgbW9zdCBpbXBvcnRhbnQgZmFjdG9yIG9mIGFsbC4gSXQgZGV0ZXJtaW5lcyBob3cgd2VsbCBhIHBsYXllciBwZXJmb3JtcyBpbiBtYXRjaGVzLjxicj48YnI+DQogICAgPGI+RFY8L2I+PGJyPg0KICAgIERWIHN0YW5kcyBmb3IgZGV2ZWxvcG1lbnQgdmFsdWUgYW5kIHZhcmllcyBiZXR3ZWVuIDAgYW5kIDIwIHdoZXJlIDIwIGlzIGJlc3QuDQogICAgRFYgaXMgYSBjb21iaW5hdGlvbiBvZiBhdmVyYWdlIGZvcm0gYW5kIG1hdGNoIGV4cGVyaWVuY2UgdGhhdCB0aGUgcGxheWVyIHJlY2VpdmVkLjxicj48YnI+DQoNCiAgICA8Yj5Gb3JtPC9iPjxicj4NCiAgICBBbGwgcGxheWVycyBoYXZlIGEgY3VycmVudCBmb3JtIGFuZCBhbiBhdmVyYWdlIGZvcm0uIFRoZSBmb3JtIHZhcmllcyBiZXR3ZWVuIDAgYW5kIDIwIHdpdGggMCB0aGUgbG93ZXN0LCAyMCB0aGUgaGlnaGVzdCBhbmQgMTAgdGhlIG5vcm0uIFRoZSBiYXJzIGJlbG93IGlzIHRoZSBhdmVyYWdlIGZvcm0uPGJyPjxicj4NCg0KICAgIDxiPkZUPC9iPjxicj4NCiAgICBUaGUgYXJyb3dzIHNob3dzIHRoZSBwbGF5ZXIncyBsYXN0IGZvcm0gY2hhbmdlLjxicj48YnI+DQoNCiAgICA8Yj5TcGVjaWFsIHF1YWxpdGllczwvYj48YnI+DQogICAgQSBwbGF5ZXIgY2FuIGhhdmUgbXVsdGlwbGUgc3BlY2lhbCBxdWFsaXRpZXMuIEEgc3BlY2lhbCBxdWFsaXR5IG1lYW5zIHRoYXQgdGhlIHBsYXllciBpcyBzb21ld2hhdCBiZXR0ZXIgaW4gdGhlIHNwZWNpZmljIGFyZWEgY29tcGFyZWQgdG8gcGxheWVycyB0aGF0IGRvbsK0dCBoYXZlIHRoZSBxdWFsaXR5LiA8YSBocmVmPSJydWxlcy5hc3B4P1J1bGVJRD0zOSI+WW91IGNhbiByZWFkIG1vcmUgYWJvdXQgdGhlbSBoZXJlLjwvYT48YnI+PGJyPg0KDQogICAgPGI+VHJhaW5pbmc8L2I+PGJyPg0KICAgIFRvIGtlZXAgeW91ciBwbGF5ZXJzIGluIGdvb2QgZm9ybSB5b3UgbXVzdCB0cmFpbiB0aGVtIGluZGl2aWR1YWxseS4gSW5kaXZpZHVhbGx5IHRyYWluaW5nIG9uZSBwbGF5ZXIgY29zdHMgMTMwIDAwMCBlY29uIGFuZCBpdCB0YWtlcyA1IGRheXMgYmVmb3JlIGl0IGhhcyBhbiBlZmZlY3QuDQogICAgVGhlIGljb24gPGltZyBzcmM9Imh0dHA6Ly93d3cueHBlcnRlbGV2ZW4uY29tL0dSQVBISUNTL2Jvb3N0SWNvbjMuZ2lmIiBzdHlsZT0iZmxvYXQ6IG5vbmU7bWFyZ2luOiAwOyI+PC9pbWc+IHNob3dzIHRoZSBwbGF5ZXIgaXMgaW4gZm9ybSB0cmFpbmluZyBhbmQgaG93IG1hbnkgdHJhaW5pbmcgZGF5cyB0aGF0IHBhc3QuIFRoZSBleGFtcGxlIHNob3dzIGEgcGxheWVyIHRoYXQgaGF2ZSB0cmFpbmVkIGZvciAzIGRheXMuPGJyPjxicj4NCg0KICAgIDxiPlBsYXllciBkZXZlbG9wbWVudDwvYj48YnI+DQogICAgQWZ0ZXIgZWFjaCBlbmRlZCBzZWFzb24gYSBza2lsbCB1cGRhdGUgd2lsbCB0YWtlIHBsYWNlIHdoZXJlIGFnZSwgc2tpbGwgYW5kIERWIG9mIGVhY2ggcGxheWVyIHdpbGwgYmUgY2FsY3VsYXRlZC4gQSBwbGF5ZXIgd2l0aCBhIERWIGFib3ZlIDEwIHdpbGwgaW5jcmVhc2UgdGhlaXIgZXhhY3Qgc2tpbGwgd2hpbGUgYSBwbGF5ZXIgYmVsb3cgMTAgaW4gRFYgd2lsbCBkZWNyZWFzZSB0aGVpciBleGFjdCBza2lsbC4gWW91bmdlciBwbGF5ZXJzIHRlbmQgdG8gZG8gYmV0dGVyIGluIHRoZSBza2lsbCBsZXZlbCB1cGRhdGVzIGFuZCByYWlzZSB0aGVpciBza2lsbCBsZXZlbCBtb3JlIGFzIHdlbGwgYXMgbG93ZXIgdGhlaXIgc2tpbGwgbGV2ZWwgbGVzcyB0aGFuIG9sZGVyIHBsYXllcnMuDQogICAgZGQCDw8WAh8JBRR2ZXJ0aWNhbC1hbGlnbjogdG9wOxYCAgEPDxYCHwBoFgQeBVN0eWxlBRFtYXJnaW4tbGVmdDoxMHB4Ox8IBRNSaWdodEFkQ29udGVudExvYmJ5ZAIQDw8WAh8DBQdDb250YWN0ZGQCEQ8PFgIfAwUJQ2hhbmdlbG9nZGQCEg8PFgIfAwUEQmxvZ2RkAhMPDxYCHwMFCUFkdmVydGlzZWRkAhQPDxYCHwMFB1ByaXZhY3lkZAIVDw8WAh8DBR7CqSBYcGVydCBFbGV2ZW4gQUIgMjAwMyAtIDIwMTRkZBgBBR5fX0NvbnRyb2xzUmVxdWlyZVBvc3RCYWNrS2V5X18WEAUmY3RsMDAkY3BoTWFpbiRkZ1BsYXllcnMkY3RsMDIkY2hiQm9vc3QFJmN0bDAwJGNwaE1haW4kZGdQbGF5ZXJzJGN0bDAzJGNoYkJvb3N0BSZjdGwwMCRjcGhNYWluJGRnUGxheWVycyRjdGwwNCRjaGJCb29zdAUmY3RsMDAkY3BoTWFpbiRkZ1BsYXllcnMkY3RsMDUkY2hiQm9vc3QFJmN0bDAwJGNwaE1haW4kZGdQbGF5ZXJzJGN0bDA2JGNoYkJvb3N0BSZjdGwwMCRjcGhNYWluJGRnUGxheWVycyRjdGwwNyRjaGJCb29zdAUmY3RsMDAkY3BoTWFpbiRkZ1BsYXllcnMkY3RsMDgkY2hiQm9vc3QFJmN0bDAwJGNwaE1haW4kZGdQbGF5ZXJzJGN0bDA5JGNoYkJvb3N0BSZjdGwwMCRjcGhNYWluJGRnUGxheWVycyRjdGwxMCRjaGJCb29zdAUmY3RsMDAkY3BoTWFpbiRkZ1BsYXllcnMkY3RsMTEkY2hiQm9vc3QFJmN0bDAwJGNwaE1haW4kZGdQbGF5ZXJzJGN0bDEyJGNoYkJvb3N0BSZjdGwwMCRjcGhNYWluJGRnUGxheWVycyRjdGwxMyRjaGJCb29zdAUmY3RsMDAkY3BoTWFpbiRkZ1BsYXllcnMkY3RsMTQkY2hiQm9vc3QFJmN0bDAwJGNwaE1haW4kZGdQbGF5ZXJzJGN0bDE1JGNoYkJvb3N0BSZjdGwwMCRjcGhNYWluJGRnUGxheWVycyRjdGwxNiRjaGJCb29zdAUmY3RsMDAkY3BoTWFpbiRkZ1BsYXllcnMkY3RsMTckY2hiQm9vc3SDMLMSQeXKUyQBry2OLq+sk7UlOw==" /></div>
+         <script src="/ScriptResource.axd?d=G4O55XDdcx2PZ-fZnlDqtgjUeKM-kjgjNLeWMb4U2wui-LmeQZjRzba26m3kaYD9cxDmDFBXjZbE_WGrOUMajupWI0oFB9U4ije_V7eAbYc42-0mnsDakibp0beLrYNdsMsck0O77eNNXk1J5AfG99ObRjXOek3I2NOaHqpZAIqsosTV0&amp;t=ffffffff94f72c4c" type="text/javascript"></script><script src="/ScriptResource.axd?d=z3ZH9NOU878jyPM5UN1nmpzipzIVTZ4YLLoXwTyntr5msdC20g2kTyuUA6w7b9hWw0s_KqklWr3KuqoNcx7XLa_FOMsnLgeoP2KK2W9uNqpU-uNDgg4OEjX_7nYyYDL8zhPQkDDIxbLpsD2Hux3QTmiZz03tynsXa94ZJ7juP-C4Ve3NwTH95hLKR_br3eRYyk0CzbYSWF5WeLN0u7ggiG0bnCw1" type="text/javascript"></script>
+         <div>	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWBgK0o9yUDQLCypy4CgL92NbdDwL7oKG8CwLuhLyiAwKy69DmA4/ly4kl7xsC3iZQg6cRxjaDYhsY" /></div>
+         <script type="text/javascript">        $(window).load(function () {            $("#tutorialElement").joyride({                'tipLocation': 'bottom',                'nubPosition': 'auto',                'tipContainer': 'body',                'tipAnimation': 'pop'            });        });    </script>    <script type="text/javascript" language="javascript">            //RÃ¶r ej :)            var ServerRootUrl = '/';            var serverClock = new Date(2014,06,29,19,53,58);            var iNewGB = 0;            var ImgServer = 'http://img.xperteleven.com';    </script>            
+         <div id="TopMenuHolder">
+            <div id="TopMenuContent">
+               <div id="TopMenu" class="leftNM">
+                  <ul>
+                     <li>                                                        <a id="ctl00_rMenu_ctl01_HyperLink2" href="/front_new3.aspx">Home</a>                                                    </li>
+                     <li class="border">
+                        <div class="separator">                                &nbsp;</div>
+                     </li>
+                     <li>                                                        <a id="ctl00_rMenu_ctl02_HyperLink2" href="/registerUser.aspx">Join</a>                                                    </li>
+                     <li class="border">
+                        <div class="separator">                                &nbsp;</div>
+                     </li>
+                     <li>
+                        <a id="ctl00_rMenu_ctl03_HyperLink2" href="javascript:void(0)">The Game</a>                                                                
+                        <div class="down_arrow">                                    </div>
+                        <ul>
+                           <li>                                                                                <a id="ctl00_rMenu_ctl03_rSubMenu1_ctl01_HyperLink3" href="/halloffame.aspx">Hall Of Fame</a>                                                                            </li>
+                           <li>                                                                                <a id="ctl00_rMenu_ctl03_rSubMenu1_ctl02_HyperLink3" href="/xpertLeagues.aspx">Xpert leagues</a>                                                                            </li>
+                           <li>                                                                                <a id="ctl00_rMenu_ctl03_rSubMenu1_ctl03_HyperLink3" href="standings.aspx?Lid=111&amp;Lnr=1&amp;dh=1">Xpert Champions League</a>                                                                            </li>
+                           <li>                                                                                <a id="ctl00_rMenu_ctl03_rSubMenu1_ctl04_HyperLink3" href="/xpertdaily.aspx">Xpert Daily</a>                                                                            </li>
+                        </ul>
+                     </li>
+                     <li class="border">
+                        <div class="separator">                                &nbsp;</div>
+                     </li>
+                     <li>                                                        <a id="ctl00_rMenu_ctl04_HyperLink2" href="/screenshots.aspx">Screenshots</a>                                                    </li>
+                     <li class="border">
+                        <div class="separator">                                &nbsp;</div>
+                     </li>
+                     <li>
+                        <a id="ctl00_rMenu_ctl05_HyperLink2" href="javascript:void(0)">Help</a>                                                                
+                        <div class="down_arrow">                                    </div>
+                        <ul>
+                           <li>                                                                                <a id="ctl00_rMenu_ctl05_rSubMenu1_ctl01_HyperLink3" href="/ruler.aspx?RuleID=34">Rules</a>                                                                            </li>
+                           <li>                                                                                <a id="ctl00_rMenu_ctl05_rSubMenu1_ctl02_HyperLink3" href="/faq.aspx?CatID=1">F.A.Q</a>                                                                            </li>
+                           <li>                                                                                <a id="ctl00_rMenu_ctl05_rSubMenu1_ctl03_HyperLink3" href="/forgotPass.aspx">Forgot Password?</a>                                                                            </li>
+                        </ul>
+                     </li>
+                     <li class="border">
+                        <div class="separator">                                &nbsp;</div>
+                     </li>
+                  </ul>
+               </div>
+               <div id="TopIconBar">
+                  <div id="TopIconMessages">
+                     <div class="MailPic">		                	                </div>
+                  </div>
+                  <div id="TopIconGuestbook" class="">
+                     <div class="GBPic">		                	                </div>
+                  </div>
+                  <div id="TopIconNotes" class="">					                                                            </div>
+                  <div id="TopIconTime" class="" title="">
+                     <div id="theClock"></div>
+                  </div>
+                  <div id="TopIconLogout">				                    </div>
+               </div>
+               <div class="clear"></div>
+            </div>
+         </div>
+         <table cellpadding="0" cellspacing="0" class="MainContainer" style="height: 100%;">
+            <tr style="height: 90px;" valign="top">
+               <td colspan="2">
+                  <a name="toTop"></a>                
+                  <div id="pTop" class="TopLocked">
+                     <div id="ctl00_pMainHeader">
+                        <div id="SiteHeaderMain">
+                           <div style="float: left;">                                <a id="ctl00_hlBannerNotTeam" href="/front_new3.aspx" style="display: block; width: 358px;                                    position: relative; top: 0; left: 0; height: 156px;"></a>                            </div>
+                           <div id="ctl00_pFBLikeBox" class="fb_like_box_frame">
+                              <div id="fb_like_box" class="fb_like_box">    <iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Fpages%2FXpert-Eleven%2F132720546748046&amp;width=292&amp;height=62&amp;show_faces=false&amp;colorscheme=light&amp;stream=false&amp;border_color&amp;header=false"        scrolling="no" frameborder="0" style="border: none; overflow: hidden; width: 292px;        height: 62px;" allowtransparency="true"></iframe></div>
+                           </div>
+                           <div id="ctl00_pInfoBox">		                                                                                            	</div>
+                        </div>
+                     </div>
+                     <div id="ctl00_pLogIn" class="LoginMenuPlace">
+                        <table cellpadding="0" cellspacing="0" width="100%">
+                           <tr>
+                              <td>
+                                 <div id="ctl00_lo_pLogin">
+                                    <table class="LogInTable" cellpadding="0" cellspacing="0">
+                                       <tr>
+                                          <td>            <input name="ctl00$lo$txtUserID" type="text" size="14" id="ctl00_lo_txtUserID" tabindex="10" class="LogInUserName" />            <span id="ErrorUserId" class="Error"></span>        </td>
+                                          <td>            <input name="ctl00$lo$txtPassword" type="password" size="14" id="ctl00_lo_txtPassword" tabindex="11" class="LogInPassword" />            <span id="ErrorPassword" class="Error"></span>        </td>
+                                          <td>            <input type="submit" name="ctl00$lo$btnLogin" value="Enter" onclick="return ValidateLogin();" id="ctl00_lo_btnLogin" tabindex="12" class="LoginBtn" />                        </td>
+                                          <td class="ForgotPassword"><input name="ctl00$lo$tbFlash" type="hidden" id="ctl00_lo_tbFlash" />                        <a id="ctl00_lo_hlForgotPassword" title="Forgot password?" href="forgotPass.aspx"><img title="Forgot password?" src="images/pass4forgot.png" alt="" style="border-width:0px;" /></a>        </td>
+                                          <td>
+                                             <div class="fb_button_field">
+                                                <!-- Postback button --><!-- Hyperlink button --><a id="ctl00_lo_FB_ButtonLogin_hplButton" class="fb_link_button" href="FacebookLoginNew.aspx"><span id="ctl00_lo_FB_ButtonLogin_lblText2">Login with Facebook</span></a>
+                                             </div>
+                                          </td>
+                                       </tr>
+                                    </table>
+                                 </div>
+                                 <div id="fb-root"></div>
+                                 <input type="hidden" name="ctl00$lo$fbControl$hfFBAccessToken" id="ctl00_lo_fbControl_hfFBAccessToken" /><script type="text/javascript" src="//connect.facebook.net/en_US/all.js"></script><script type="text/javascript">    // Load the SDK's source Asynchronously    //    (function (d, debug) {    //        var js, id = 'facebook-jssdk', ref = d.getElementsByTagName('script')[0];    //        if (d.getElementById(id)) { return; }    //        js = d.createElement('script'); js.id = id; js.async = true;    //        js.src = "//connect.facebook.net/en_US/all" + (debug ? "/debug" : "") + ".js";    //        ref.parentNode.insertBefore(js, ref);    //    } (document, /*debug*/false));    //window.fbAsyncInit = function () {     var apa = '0';    // init the FB JS SDK    FB.init({        appId: '558837447471453', // App ID from the App Dashboard        channelUrl: 'www.xperteleven.com/channel.html', // Channel File for x-domain communication        status: true, // check the login status upon init?        cookie: true, // set sessions cookies to allow your server to access the session?        xfbml: true  // parse XFBML tags on this page?    });    // listen for and handle auth.statusChange events    FB.Event.subscribe('auth.statusChange', function (response) {        if (response.authResponse) {            console.log("Logged in with FB");            $("#ctl00_lo_fbControl_hfFBAccessToken").val(response.authResponse.accessToken);        } else {            console.log("NOT Logged in with FB");        }    });    //};    function connectWithFB() {        console.log("Connect with FB");        FB.getLoginStatus(function (response) {            if (response.status === 'connected') {                // connected                connect(response.authResponse.accessToken);            } else if (response.status === 'not_authorized') {                // not_authorized                loginConnect();            } else {                // not_logged_in                loginConnect();            }        });    }    function loginConnect() {        console.log("Login connect");        FB.login(function (response) {            if (response.authResponse) {                // connected                connect(response.authResponse.accessToken);            } else {                // cancelled            }        }, { scope: 'email,user_likes,user_birthday,publish_actions' });    }    function redirect(page, accessToken) {        FB.api('/me', function (response) {            document.location = page + '?access_token=' + accessToken;        });    }    function connect(accessToken) {        document.location = '&access_token=' + accessToken;    }    function PostToWall(user, userMsg, name, link, desc, picture, crc) {        FB.login(function (response) {            if (response.authResponse) {                // connected                // Post to wall                $.get("Ajax/FacebookPostHandler.ashx", { User: user, Message: userMsg, Name: name, Link: link, Desc: desc, Picture: picture,  CRC: crc }, function (data) {                    console.log(data);                });            } else {                // cancelled            }        }, { scope: 'email,user_likes,user_birthday,publish_actions' });    }</script>                                
+                              </td>
+                              <td align="right" width="180px" class="MemberOnline">                                    <span id="ctl00_lblOnlineMemberStatic" style="font-weight:bold;">Members online</span>:&nbsp;<span id="ctl00_lblOnlineMember">2 756</span>                                </td>
+                              <td align="right" class="MenuSep">                                    <img id="ctl00_Image3" src="App_Themes/Main/Image/mnu_div.png" style="border-width:0px;" />                                </td>
+                              <td width="70px" id="TopLanguageMenu">
+                                 <table cellpadding="0" cellspacing="0">
+                                    <tr>
+                                       <td>                                                <span id="ctl00_lblLangHeader">English</span>                                            </td>
+                                       <td>                                                <img id="ctl00_imgLangArrow" src="/images/bottom_arrow.gif" style="border-width:0px;" />                                            </td>
+                                    </tr>
+                                    <tbody style="z-index: 50; position: absolute;">
+                                       <tr>
+                                          <td colspan="2" nowrap="nowrap" style="display: none;" id="SubLanguages">
+                                             <a id="ctl00_rLang_ctl00_HyperLink1" href="/players.aspx?TeamID=1027839&amp;Boost=0&amp;dh=2&amp;plang=BG">
+                                                <div class="LanguageMenuItem">                                                                    <img id="ctl00_rLang_ctl00_Image2" alt="" src="http://img.xperteleven.com/flags/BG.gif" style="border-width:0px;" /><span id="ctl00_rLang_ctl00_Label1">Bulgarian</span>                                                                </div>
+                                             </a>
+                                             <a id="ctl00_rLang_ctl01_HyperLink1" href="/players.aspx?TeamID=1027839&amp;Boost=0&amp;dh=2&amp;plang=DA">
+                                                <div class="LanguageMenuItem">                                                                    <img id="ctl00_rLang_ctl01_Image2" alt="" src="http://img.xperteleven.com/flags/DK.gif" style="border-width:0px;" /><span id="ctl00_rLang_ctl01_Label1">Danish</span>                                                                </div>
+                                             </a>
+                                             <a id="ctl00_rLang_ctl02_HyperLink1" href="/players.aspx?TeamID=1027839&amp;Boost=0&amp;dh=2&amp;plang=NL">
+                                                <div class="LanguageMenuItem">                                                                    <img id="ctl00_rLang_ctl02_Image2" alt="" src="http://img.xperteleven.com/flags/NL.gif" style="border-width:0px;" /><span id="ctl00_rLang_ctl02_Label1">Dutch</span>                                                                </div>
+                                             </a>
+                                             <a id="ctl00_rLang_ctl03_HyperLink1" href="/players.aspx?TeamID=1027839&amp;Boost=0&amp;dh=2&amp;plang=FI">
+                                                <div class="LanguageMenuItem">                                                                    <img id="ctl00_rLang_ctl03_Image2" alt="" src="http://img.xperteleven.com/flags/FI.gif" style="border-width:0px;" /><span id="ctl00_rLang_ctl03_Label1">Finnish</span>                                                                </div>
+                                             </a>
+                                             <a id="ctl00_rLang_ctl04_HyperLink1" href="/players.aspx?TeamID=1027839&amp;Boost=0&amp;dh=2&amp;plang=FR">
+                                                <div class="LanguageMenuItem">                                                                    <img id="ctl00_rLang_ctl04_Image2" alt="" src="http://img.xperteleven.com/flags/FR.gif" style="border-width:0px;" /><span id="ctl00_rLang_ctl04_Label1">French</span>                                                                </div>
+                                             </a>
+                                             <a id="ctl00_rLang_ctl05_HyperLink1" href="/players.aspx?TeamID=1027839&amp;Boost=0&amp;dh=2&amp;plang=DE">
+                                                <div class="LanguageMenuItem">                                                                    <img id="ctl00_rLang_ctl05_Image2" alt="" src="http://img.xperteleven.com/flags/DE.gif" style="border-width:0px;" /><span id="ctl00_rLang_ctl05_Label1">German</span>                                                                </div>
+                                             </a>
+                                             <a id="ctl00_rLang_ctl06_HyperLink1" href="/players.aspx?TeamID=1027839&amp;Boost=0&amp;dh=2&amp;plang=HU">
+                                                <div class="LanguageMenuItem">                                                                    <img id="ctl00_rLang_ctl06_Image2" alt="" src="http://img.xperteleven.com/flags/HU.gif" style="border-width:0px;" /><span id="ctl00_rLang_ctl06_Label1">Hungarian</span>                                                                </div>
+                                             </a>
+                                             <a id="ctl00_rLang_ctl07_HyperLink1" href="/players.aspx?TeamID=1027839&amp;Boost=0&amp;dh=2&amp;plang=MS">
+                                                <div class="LanguageMenuItem">                                                                    <img id="ctl00_rLang_ctl07_Image2" alt="" src="http://img.xperteleven.com/flags/MY.gif" style="border-width:0px;" /><span id="ctl00_rLang_ctl07_Label1">Malaysian</span>                                                                </div>
+                                             </a>
+                                             <a id="ctl00_rLang_ctl08_HyperLink1" href="/players.aspx?TeamID=1027839&amp;Boost=0&amp;dh=2&amp;plang=MT">
+                                                <div class="LanguageMenuItem">                                                                    <img id="ctl00_rLang_ctl08_Image2" alt="" src="http://img.xperteleven.com/flags/MT.gif" style="border-width:0px;" /><span id="ctl00_rLang_ctl08_Label1">Maltese</span>                                                                </div>
+                                             </a>
+                                             <a id="ctl00_rLang_ctl09_HyperLink1" href="/players.aspx?TeamID=1027839&amp;Boost=0&amp;dh=2&amp;plang=NO">
+                                                <div class="LanguageMenuItem">                                                                    <img id="ctl00_rLang_ctl09_Image2" alt="" src="http://img.xperteleven.com/flags/NO.gif" style="border-width:0px;" /><span id="ctl00_rLang_ctl09_Label1">Norwegian</span>                                                                </div>
+                                             </a>
+                                             <a id="ctl00_rLang_ctl10_HyperLink1" href="/players.aspx?TeamID=1027839&amp;Boost=0&amp;dh=2&amp;plang=PL">
+                                                <div class="LanguageMenuItem">                                                                    <img id="ctl00_rLang_ctl10_Image2" alt="" src="http://img.xperteleven.com/flags/PL.gif" style="border-width:0px;" /><span id="ctl00_rLang_ctl10_Label1">Polish</span>                                                                </div>
+                                             </a>
+                                             <a id="ctl00_rLang_ctl11_HyperLink1" href="/players.aspx?TeamID=1027839&amp;Boost=0&amp;dh=2&amp;plang=PT">
+                                                <div class="LanguageMenuItem">                                                                    <img id="ctl00_rLang_ctl11_Image2" alt="" src="http://img.xperteleven.com/flags/PT.gif" style="border-width:0px;" /><span id="ctl00_rLang_ctl11_Label1">Portuguese</span>                                                                </div>
+                                             </a>
+                                             <a id="ctl00_rLang_ctl12_HyperLink1" href="/players.aspx?TeamID=1027839&amp;Boost=0&amp;dh=2&amp;plang=RO">
+                                                <div class="LanguageMenuItem">                                                                    <img id="ctl00_rLang_ctl12_Image2" alt="" src="http://img.xperteleven.com/flags/RO.gif" style="border-width:0px;" /><span id="ctl00_rLang_ctl12_Label1">Romanian</span>                                                                </div>
+                                             </a>
+                                             <a id="ctl00_rLang_ctl13_HyperLink1" href="/players.aspx?TeamID=1027839&amp;Boost=0&amp;dh=2&amp;plang=SR">
+                                                <div class="LanguageMenuItem">                                                                    <img id="ctl00_rLang_ctl13_Image2" alt="" src="http://img.xperteleven.com/flags/RS.gif" style="border-width:0px;" /><span id="ctl00_rLang_ctl13_Label1">Serbian</span>                                                                </div>
+                                             </a>
+                                             <a id="ctl00_rLang_ctl14_HyperLink1" href="/players.aspx?TeamID=1027839&amp;Boost=0&amp;dh=2&amp;plang=SL">
+                                                <div class="LanguageMenuItem">                                                                    <img id="ctl00_rLang_ctl14_Image2" alt="" src="http://img.xperteleven.com/flags/SI.gif" style="border-width:0px;" /><span id="ctl00_rLang_ctl14_Label1">Slovenian</span>                                                                </div>
+                                             </a>
+                                             <a id="ctl00_rLang_ctl15_HyperLink1" href="/players.aspx?TeamID=1027839&amp;Boost=0&amp;dh=2&amp;plang=ES">
+                                                <div class="LanguageMenuItem">                                                                    <img id="ctl00_rLang_ctl15_Image2" alt="" src="http://img.xperteleven.com/flags/ES.gif" style="border-width:0px;" /><span id="ctl00_rLang_ctl15_Label1">Spanish</span>                                                                </div>
+                                             </a>
+                                             <a id="ctl00_rLang_ctl16_HyperLink1" href="/players.aspx?TeamID=1027839&amp;Boost=0&amp;dh=2&amp;plang=SV">
+                                                <div class="LanguageMenuItem">                                                                    <img id="ctl00_rLang_ctl16_Image2" alt="" src="http://img.xperteleven.com/flags/SE.gif" style="border-width:0px;" /><span id="ctl00_rLang_ctl16_Label1">Swedish</span>                                                                </div>
+                                             </a>
+                                             <a id="ctl00_rLang_ctl17_HyperLink1" href="/players.aspx?TeamID=1027839&amp;Boost=0&amp;dh=2&amp;plang=TR">
+                                                <div class="LanguageMenuItem">                                                                    <img id="ctl00_rLang_ctl17_Image2" alt="" src="http://img.xperteleven.com/flags/TR.gif" style="border-width:0px;" /><span id="ctl00_rLang_ctl17_Label1">Turkish</span>                                                                </div>
+                                             </a>
+                                          </td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
+                              </td>
+                           </tr>
+                        </table>
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr>
+               <td id="ctl00_MainContentCenter" class="MainContentCenterNew" style="width:1024px;">
+                  <div id="ctl00_pContent" class="PanelContent">
+                     <div id="ctl00_ContentPlace" class="ContentPlaceLobby" style="width:1024px;">
+                        <!-- wrapper -->	
+                        <div id="wrapper" style="padding: 13px 0 15px;">
+                           <!-- main-column -->		
+                           <div class="main-column">
+                              <!-- boxes -->			
+                              <div class="box blue-title">
+                                 <div class="box-holder">
+                                    <div class="box-frame2">
+                                       <div class="section-holder">
+                                          <!-- section -->							
+                                          <div class="section">
+                                             <div class="heading" style="background: #003B66 url(../images/darkblue.png) 0px 1px no-repeat;">
+                                                <h2><span id="ctl00_cphMain_lblTitle">Squad</span></h2>
+                                             </div>
+                                             <table width="100%" class="tableinsection">
+                                                <tr>
+                                                   <td noWrap align="right" valign="middle">
+                                                      <table cellspacing="1" border="0" id="ctl00_cphMain_dgPlayers" style="background-color:White;width:100%;">
+                                                         <tr class="HeaderStyle" style="font-weight:bold;white-space:nowrap;">
+                                                            <td class="HeaderStyleTD" align="center">#</td>
+                                                            <td class="HeaderStyleTD" align="center">Pos</td>
+                                                            <td class="HeaderStyleTD" align="left">Name</td>
+                                                            <td class="HeaderStyleTD" align="left">Age</td>
+                                                            <td class="HeaderStyleTD" align="left" style="white-space:nowrap;">Skill</td>
+                                                            <td class="HeaderStyleTD" align="left">Spec.</td>
+                                                            <td class="HeaderStyleTD" align="left">Stat</td>
+                                                         </tr>
+                                                         <tr class="ItemStyleGrey" valign="middle" style="white-space:nowrap;">
+                                                            <td align="center" style="white-space:nowrap;">
+																<img src="http://img.xperteleven.com/shirtnr/squad/1.gif?v=1" border="0" align="absMiddle" class="NoMargImg">
+															</td>
+                                                            <td align="center" style="white-space:nowrap;">GK</td>
+                                                            <td class="PlayerNameColl" align="left" style="white-space:nowrap;">
+                                                               <div class="PlayerId" style="display: none;">p212841697</div>
+                                                               <a id="ctl00_cphMain_dgPlayers_ctl02_HyperLink1" href="player.aspx?playerid=212841697&amp;dh=2" target="_self">TÃµnn LÃµuk</a>&nbsp;
+                                                            </td>
+                                                            <td align="center" style="white-space:nowrap;">27<img src="graphics/space1.gif" class="NoMargImgMiddle" height="16" border="0" width="1"></td>
+                                                            <td align="left" id="player_td_skill_0" style="white-space:nowrap;">
+																<span nowrap title="11"><img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox1.gif">
+																	<img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox1.gif"><img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox1.gif">
+																	<img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox2.gif"><img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox2.gif">
+																	<img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox2.gif"><img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox3.gif">
+																	<img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox3.gif"><img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox3.gif">
+																	<img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox4.gif"><img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox4.gif">
+																</span>
+															</td>
+                                                            <td align="left" valign="middle" id="player_td_spec_0" style="white-space:nowrap;">
+																<img width="15" height="15" title="This player has deep feelings for the club" src="images_2/skill_icons/heart15.png" />
+																<img width="15" height="15" title="This goalie is good at stopping breakaways" src="images_2/skill_icons/oneonone15.png" />
+															</td>
+                                                            <td align="center" valign="middle" id="player_td_stat_0" style="white-space:nowrap;">
+																<img id="ctl00_cphMain_dgPlayers_ctl02_imgThumbup" title="The player is fit to play" src="GRAPHICS/fit-icon1.gif" align="absmiddle" style="border-width:0px;" />
+															</td>
+                                                         </tr>
+                                                         <tr class="AlternatingItemStyleEcon" valign="middle" style="white-space:nowrap;">
+                                                            <td align="center" style="white-space:nowrap;">                                                                <img src="http://img.xperteleven.com/shirtnr/squad/13.gif?v=1" border="0" align="absMiddle" class="NoMargImg">												        </td>
+                                                            <td align="center" style="white-space:nowrap;">													        D												        </td>
+                                                            <td class="PlayerNameColl" align="left" style="white-space:nowrap;">
+                                                               <div class="PlayerId" style="display: none;">                                                                p212979129</div>
+                                                               <a id="ctl00_cphMain_dgPlayers_ctl03_HyperLink1" href="player.aspx?playerid=212979129&amp;dh=2" target="_self">Henrique Albernaz</a>&nbsp;													        													        													        <img id="ctl00_cphMain_dgPlayers_ctl03_imgQuiter" title="The player is retiring after this season!" class="ImgNoMarg" src="GRAPHICS/hourglassicon.gif" align="absmiddle" style="background-color:Transparent;border-width:0px;" />												        
+                                                            </td>
+                                                            <td align="center" style="white-space:nowrap;">													        35<img src="graphics/space1.gif" class="NoMargImgMiddle" height="16" border="0" width="1">												        </td>
+                                                            <td align="left" id="player_td_skill_1" style="white-space:nowrap;">													        <span nowrap title="7"><img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox1.gif"><img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox1.gif"><img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox1.gif"><img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox2.gif"><img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox2.gif"><img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox2.gif"><img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox3.gif"></span>												        </td>
+                                                            <td align="left" valign="middle" id="player_td_spec_1" style="white-space:nowrap;">													        <img width="15" height="15" title="This player has deep feelings for the club" src="images_2/skill_icons/heart15.png" /><img width="15" height="15" title="This player is a good header of the ball" src="images_2/skill_icons/header15.png" />												        </td>
+                                                            <td align="center" valign="middle" id="player_td_stat_1" style="white-space:nowrap;">													        													        													        													        <img id="ctl00_cphMain_dgPlayers_ctl03_imgThumbup" title="The player is fit to play" src="GRAPHICS/fit-icon1.gif" align="absmiddle" style="border-width:0px;" />													        													        												        </td>
+                                                         </tr>
+                                                         <tr class="AlternatingItemStyleEcon" valign="middle" style="white-space:nowrap;">
+                                                            <td align="center" style="white-space:nowrap;">                                                                <img src="http://img.xperteleven.com/shirtnr/squad/5.gif?v=1" border="0" align="absMiddle" class="NoMargImg">												        </td>
+                                                            <td align="center" style="white-space:nowrap;">													        D												        </td>
+                                                            <td class="PlayerNameColl" align="left" style="white-space:nowrap;">
+                                                               <div class="PlayerId" style="display: none;">                                                                p212545515</div>
+                                                               <a id="ctl00_cphMain_dgPlayers_ctl04_HyperLink1" href="player.aspx?playerid=212545515&amp;dh=2" target="_self">Bobby Ready</a>&nbsp;													        													        													        												        
+                                                            </td>
+                                                            <td align="center" style="white-space:nowrap;">													        29<img src="graphics/space1.gif" class="NoMargImgMiddle" height="16" border="0" width="1">												        </td>
+                                                            <td align="left" id="player_td_skill_2" style="white-space:nowrap;">													        <span nowrap title="11"><img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox1.gif"><img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox1.gif"><img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox1.gif"><img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox2.gif"><img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox2.gif"><img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox2.gif"><img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox3.gif"><img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox3.gif"><img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox3.gif"><img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox4.gif"><img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox4.gif"></span>												        </td>
+                                                            <td align="left" valign="middle" id="player_td_spec_2" style="white-space:nowrap;">													        <img width="15" height="15" title="The player is a legend in the club" src="images_2/skill_icons/goldheart15.png" />												        </td>
+                                                            <td align="center" valign="middle" id="player_td_stat_2" style="white-space:nowrap;">													        													        													        													        <img id="ctl00_cphMain_dgPlayers_ctl04_imgThumbup" title="The player is fit to play" src="GRAPHICS/fit-icon1.gif" align="absmiddle" style="border-width:0px;" />													        													        												        </td>
+                                                         </tr>
+                                                         <tr class="AlternatingItemStyleEcon" valign="middle" style="white-space:nowrap;">
+                                                            <td align="center" style="white-space:nowrap;">                                                                <img src="http://img.xperteleven.com/shirtnr/squad/4.gif?v=1" border="0" align="absMiddle" class="NoMargImg">												        </td>
+                                                            <td align="center" style="white-space:nowrap;">													        D												        </td>
+                                                            <td class="PlayerNameColl" align="left" style="white-space:nowrap;">
+                                                               <div class="PlayerId" style="display: none;">                                                                p212729939</div>
+                                                               <a id="ctl00_cphMain_dgPlayers_ctl05_HyperLink1" href="player.aspx?playerid=212729939&amp;dh=2" target="_self">Gareth McCready</a>&nbsp;													        													        													        												        
+                                                            </td>
+                                                            <td align="center" style="white-space:nowrap;">													        28<img src="graphics/space1.gif" class="NoMargImgMiddle" height="16" border="0" width="1">												        </td>
+                                                            <td align="left" id="player_td_skill_3" style="white-space:nowrap;">													        <span nowrap title="10"><img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox1.gif"><img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox1.gif"><img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox1.gif"><img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox2.gif"><img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox2.gif"><img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox2.gif"><img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox3.gif"><img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox3.gif"><img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox3.gif"><img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox4.gif"></span>												        </td>
+                                                            <td align="left" valign="middle" id="player_td_spec_3" style="white-space:nowrap;">													        <img width="15" height="15" title="The player is a legend in the club" src="images_2/skill_icons/goldheart15.png" /><img width="15" height="15" title="This player is cool as ice and handles pressure well in most situations." src="images_2/skill_icons/cool15.png" /><img width="15" height="15" title="The player is intelligent" src="images_2/skill_icons/intelligent15.png" />												        </td>
+                                                            <td align="center" valign="middle" id="player_td_stat_3" style="white-space:nowrap;">													        													        													        													        <img id="ctl00_cphMain_dgPlayers_ctl05_imgThumbup" title="The player is fit to play" src="GRAPHICS/fit-icon1.gif" align="absmiddle" style="border-width:0px;" />													        													        												        </td>
+                                                         </tr>
+                                                         <tr class="AlternatingItemStyleEcon" valign="middle" style="white-space:nowrap;">
+                                                            <td align="center" style="white-space:nowrap;">                                                                <img src="http://img.xperteleven.com/shirtnr/squad/3.gif?v=1" border="0" align="absMiddle" class="NoMargImg">												        </td>
+                                                            <td align="center" style="white-space:nowrap;">													        D												        </td>
+                                                            <td class="PlayerNameColl" align="left" style="white-space:nowrap;">
+                                                               <div class="PlayerId" style="display: none;">                                                                p212901369</div>
+                                                               <a id="ctl00_cphMain_dgPlayers_ctl06_HyperLink1" href="player.aspx?playerid=212901369&amp;dh=2" target="_self">Duane Ready</a>&nbsp;													        													        													        												        
+                                                            </td>
+                                                            <td align="center" style="white-space:nowrap;">													        26<img src="graphics/space1.gif" class="NoMargImgMiddle" height="16" border="0" width="1">												        </td>
+                                                            <td align="left" id="player_td_skill_4" style="white-space:nowrap;">													        <span nowrap title="10"><img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox1.gif"><img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox1.gif"><img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox1.gif"><img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox2.gif"><img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox2.gif"><img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox2.gif"><img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox3.gif"><img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox3.gif"><img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox3.gif"><img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox4.gif"></span>												        </td>
+                                                            <td align="left" valign="middle" id="player_td_spec_4" style="white-space:nowrap;">													        <img width="15" height="15" title="This player has deep feelings for the club" src="images_2/skill_icons/heart15.png" /><img width="15" height="15" title="This player is a good header of the ball" src="images_2/skill_icons/header15.png" />												        </td>
+                                                            <td align="center" valign="middle" id="player_td_stat_4" style="white-space:nowrap;">													        													        													        													        <img id="ctl00_cphMain_dgPlayers_ctl06_imgThumbup" title="The player is fit to play" src="GRAPHICS/fit-icon1.gif" align="absmiddle" style="border-width:0px;" />													        													        												        </td>
+                                                         </tr>
+                                                         <tr class="AlternatingItemStyleEcon" valign="middle" style="white-space:nowrap;">
+                                                            <td align="center" style="white-space:nowrap;">                                                                <img src="http://img.xperteleven.com/shirtnr/squad/16.gif?v=1" border="0" align="absMiddle" class="NoMargImg">												        </td>
+                                                            <td align="center" style="white-space:nowrap;">													        D												        </td>
+                                                            <td class="PlayerNameColl" align="left" style="white-space:nowrap;">
+                                                               <div class="PlayerId" style="display: none;">                                                                p213170951</div>
+                                                               <a id="ctl00_cphMain_dgPlayers_ctl07_HyperLink1" href="player.aspx?playerid=213170951&amp;dh=2" target="_self">Rhys Pettinger</a>&nbsp;													        													        													        												        
+                                                            </td>
+                                                            <td align="center" style="white-space:nowrap;">													        22<img src="graphics/space1.gif" class="NoMargImgMiddle" height="16" border="0" width="1">												        </td>
+                                                            <td align="left" id="player_td_skill_5" style="white-space:nowrap;">													        <span nowrap title="5"><img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox1.gif"><img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox1.gif"><img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox1.gif"><img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox2.gif"><img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox2.gif"></span>												        </td>
+                                                            <td align="left" valign="middle" id="player_td_spec_5" style="white-space:nowrap;">													        <img width="15" height="15" title="This player has deep feelings for the club" src="images_2/skill_icons/heart15.png" /><img width="15" height="15" title="This player is a specialist in taking freekicks" src="images_2/skill_icons/freekick15.png" />												        </td>
+                                                            <td align="center" valign="middle" id="player_td_stat_5" style="white-space:nowrap;">													        													        													        													        <img id="ctl00_cphMain_dgPlayers_ctl07_imgThumbup" title="The player is fit to play" src="GRAPHICS/fit-icon1.gif" align="absmiddle" style="border-width:0px;" />													        													        												        </td>
+                                                         </tr>
+                                                         <tr class="AlternatingItemStyleEcon" valign="middle" style="white-space:nowrap;">
+                                                            <td align="center" style="white-space:nowrap;">                                                                <img src="http://img.xperteleven.com/shirtnr/squad/21.gif?v=1" border="0" align="absMiddle" class="NoMargImg">												        </td>
+                                                            <td align="center" style="white-space:nowrap;">													        D												        </td>
+                                                            <td class="PlayerNameColl" align="left" style="white-space:nowrap;">
+                                                               <div class="PlayerId" style="display: none;">                                                                p612729549</div>
+                                                               <a id="ctl00_cphMain_dgPlayers_ctl08_HyperLink1" href="player.aspx?playerid=612729549&amp;dh=2" target="_self">Toni Hadevik</a>&nbsp;													        													        													        												        
+                                                            </td>
+                                                            <td align="center" style="white-space:nowrap;">													        20<img src="graphics/space1.gif" class="NoMargImgMiddle" height="16" border="0" width="1">												        </td>
+                                                            <td align="left" id="player_td_skill_6" style="white-space:nowrap;">													        <span nowrap title="6"><img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox1.gif"><img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox1.gif"><img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox1.gif"><img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox2.gif"><img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox2.gif"><img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox2.gif"></span>												        </td>
+                                                            <td align="left" valign="middle" id="player_td_spec_6" style="white-space:nowrap;">													        <img width="15" height="15" title="This player has deep feelings for the club" src="images_2/skill_icons/heart15.png" /><img width="15" height="15" title="This player is allround and can play in any position" src="images_2/skill_icons/allround15.png" />												        </td>
+                                                            <td align="center" valign="middle" id="player_td_stat_6" style="white-space:nowrap;">													        													        													        													        <img id="ctl00_cphMain_dgPlayers_ctl08_imgThumbup" title="The player is fit to play" src="GRAPHICS/fit-icon1.gif" align="absmiddle" style="border-width:0px;" />													        													        												        </td>
+                                                         </tr>
+                                                         <tr class="ItemStyleGrey" valign="middle" style="white-space:nowrap;">
+                                                            <td align="center" style="white-space:nowrap;">                                                                <img src="http://img.xperteleven.com/shirtnr/squad/9.gif?v=1" border="0" align="absMiddle" class="NoMargImg">												        </td>
+                                                            <td align="center" style="white-space:nowrap;">													        MF												        </td>
+                                                            <td class="PlayerNameColl" align="left" style="white-space:nowrap;">
+                                                               <div class="PlayerId" style="display: none;">                                                                p212948649</div>
+                                                               <a id="ctl00_cphMain_dgPlayers_ctl09_HyperLink1" href="player.aspx?playerid=212948649&amp;dh=2" target="_self">JoÃ£o Cabrito</a>&nbsp;													        													        													        												        
+                                                            </td>
+                                                            <td align="center" style="white-space:nowrap;">													        29<img src="graphics/space1.gif" class="NoMargImgMiddle" height="16" border="0" width="1">												        </td>
+                                                            <td align="left" id="player_td_skill_7" style="white-space:nowrap;">													        <span nowrap title="12"><img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox1.gif"><img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox1.gif"><img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox1.gif"><img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox2.gif"><img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox2.gif"><img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox2.gif"><img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox3.gif"><img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox3.gif"><img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox3.gif"><img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox4.gif"><img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox4.gif"><img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox4.gif"></span>												        </td>
+                                                            <td align="left" valign="middle" id="player_td_spec_7" style="white-space:nowrap;">													        <img width="15" height="15" title="This player has deep feelings for the club" src="images_2/skill_icons/heart15.png" /><img width="15" height="15" title="This player is quicker than most" src="images_2/skill_icons/quick15.png" />												        </td>
+                                                            <td align="center" valign="middle" id="player_td_stat_7" style="white-space:nowrap;">													        													        													        													        <img id="ctl00_cphMain_dgPlayers_ctl09_imgThumbup" title="The player is fit to play" src="GRAPHICS/fit-icon1.gif" align="absmiddle" style="border-width:0px;" />													        													        												        </td>
+                                                         </tr>
+                                                         <tr class="ItemStyleGrey" valign="middle" style="white-space:nowrap;">
+                                                            <td align="center" style="white-space:nowrap;">                                                                <img src="http://img.xperteleven.com/shirtnr/squad/10.gif?v=1" border="0" align="absMiddle" class="NoMargImg">												        </td>
+                                                            <td align="center" style="white-space:nowrap;">													        MF												        </td>
+                                                            <td class="PlayerNameColl" align="left" style="white-space:nowrap;">
+                                                               <div class="PlayerId" style="display: none;">                                                                p212807785</div>
+                                                               <a id="ctl00_cphMain_dgPlayers_ctl10_HyperLink1" href="player.aspx?playerid=212807785&amp;dh=2" target="_self">Adilson Nunes</a>&nbsp;													        													        													        												        
+                                                            </td>
+                                                            <td align="center" style="white-space:nowrap;">													        28<img src="graphics/space1.gif" class="NoMargImgMiddle" height="16" border="0" width="1">												        </td>
+                                                            <td align="left" id="player_td_skill_8" style="white-space:nowrap;">													        <span nowrap title="9"><img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox1.gif"><img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox1.gif"><img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox1.gif"><img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox2.gif"><img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox2.gif"><img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox2.gif"><img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox3.gif"><img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox3.gif"><img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox3.gif"></span>												        </td>
+                                                            <td align="left" valign="middle" id="player_td_spec_8" style="white-space:nowrap;">													        <img width="15" height="15" title="The player is a legend in the club" src="images_2/skill_icons/goldheart15.png" /><img width="15" height="15" title="The player is intelligent" src="images_2/skill_icons/intelligent15.png" />												        </td>
+                                                            <td align="center" valign="middle" id="player_td_stat_8" style="white-space:nowrap;">													        													        													        													        <img id="ctl00_cphMain_dgPlayers_ctl10_imgThumbup" title="The player is fit to play" src="GRAPHICS/fit-icon1.gif" align="absmiddle" style="border-width:0px;" />													        													        												        </td>
+                                                         </tr>
+                                                         <tr class="ItemStyleGrey" valign="middle" style="white-space:nowrap;">
+                                                            <td align="center" style="white-space:nowrap;">                                                                <img src="http://img.xperteleven.com/shirtnr/squad/25.gif?v=1" border="0" align="absMiddle" class="NoMargImg">												        </td>
+                                                            <td align="center" style="white-space:nowrap;">													        MF												        </td>
+                                                            <td class="PlayerNameColl" align="left" style="white-space:nowrap;">
+                                                               <div class="PlayerId" style="display: none;">                                                                p212901264</div>
+                                                               <a id="ctl00_cphMain_dgPlayers_ctl11_HyperLink1" href="player.aspx?playerid=212901264&amp;dh=2" target="_self">Abran Vales</a>&nbsp;													        													        													        												        
+                                                            </td>
+                                                            <td align="center" style="white-space:nowrap;">													        27<img src="graphics/space1.gif" class="NoMargImgMiddle" height="16" border="0" width="1">												        </td>
+                                                            <td align="left" id="player_td_skill_9" style="white-space:nowrap;">													        <span nowrap title="10"><img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox1.gif"><img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox1.gif"><img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox1.gif"><img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox2.gif"><img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox2.gif"><img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox2.gif"><img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox3.gif"><img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox3.gif"><img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox3.gif"><img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox4.gif"></span>												        </td>
+                                                            <td align="left" valign="middle" id="player_td_spec_9" style="white-space:nowrap;">													        <img width="15" height="15" title="The player is a legend in the club" src="images_2/skill_icons/goldheart15.png" /><img width="15" height="15" title="This player is allround and can play in any position" src="images_2/skill_icons/allround15.png" /><img width="15" height="15" title="This player has great shooting power" src="images_2/skill_icons/shooter15.png" />												        </td>
+                                                            <td align="center" valign="middle" id="player_td_stat_9" style="white-space:nowrap;">													        													        													        													        <img id="ctl00_cphMain_dgPlayers_ctl11_imgThumbup" title="The player is fit to play" src="GRAPHICS/fit-icon1.gif" align="absmiddle" style="border-width:0px;" />													        													        												        </td>
+                                                         </tr>
+                                                         <tr class="ItemStyleGrey" valign="middle" style="white-space:nowrap;">
+                                                            <td align="center" style="white-space:nowrap;">                                                                <img src="http://img.xperteleven.com/shirtnr/squad/7.gif?v=1" border="0" align="absMiddle" class="NoMargImg">												        </td>
+                                                            <td align="center" style="white-space:nowrap;">													        MF												        </td>
+                                                            <td class="PlayerNameColl" align="left" style="white-space:nowrap;">
+                                                               <div class="PlayerId" style="display: none;">                                                                p213308687</div>
+                                                               <a id="ctl00_cphMain_dgPlayers_ctl12_HyperLink1" href="player.aspx?playerid=213308687&amp;dh=2" target="_self">Firmino Mais</a>&nbsp;													        													        													        												        
+                                                            </td>
+                                                            <td align="center" style="white-space:nowrap;">													        22<img src="graphics/space1.gif" class="NoMargImgMiddle" height="16" border="0" width="1">												        </td>
+                                                            <td align="left" id="player_td_skill_10" style="white-space:nowrap;">													        <span nowrap title="6"><img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox1.gif"><img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox1.gif"><img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox1.gif"><img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox2.gif"><img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox2.gif"><img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox2.gif"></span>												        </td>
+                                                            <td align="left" valign="middle" id="player_td_spec_10" style="white-space:nowrap;">													        <img width="15" height="15" title="This player has deep feelings for the club" src="images_2/skill_icons/heart15.png" /><img width="15" height="15" title="This player is allround and can play in any position" src="images_2/skill_icons/allround15.png" />												        </td>
+                                                            <td align="center" valign="middle" id="player_td_stat_10" style="white-space:nowrap;">													        													        													        													        <img id="ctl00_cphMain_dgPlayers_ctl12_imgThumbup" title="The player is fit to play" src="GRAPHICS/fit-icon1.gif" align="absmiddle" style="border-width:0px;" />													        													        												        </td>
+                                                         </tr>
+                                                         <tr class="ItemStyleGrey" valign="middle" style="white-space:nowrap;">
+                                                            <td align="center" style="white-space:nowrap;">                                                                <img src="http://img.xperteleven.com/shirtnr/squad/30.gif?v=1" border="0" align="absMiddle" class="NoMargImg">												        </td>
+                                                            <td align="center" style="white-space:nowrap;">													        MF												        </td>
+                                                            <td class="PlayerNameColl" align="left" style="white-space:nowrap;">
+                                                               <div class="PlayerId" style="display: none;">                                                                p612829987</div>
+                                                               <a id="ctl00_cphMain_dgPlayers_ctl13_HyperLink1" href="player.aspx?playerid=612829987&amp;dh=2" target="_self">Nickie Betts</a>&nbsp;													        													        													        												        
+                                                            </td>
+                                                            <td align="center" style="white-space:nowrap;">													        22<img src="graphics/space1.gif" class="NoMargImgMiddle" height="16" border="0" width="1">												        </td>
+                                                            <td align="left" id="player_td_skill_11" style="white-space:nowrap;">													        <span nowrap title="6"><img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox1.gif"><img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox1.gif"><img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox1.gif"><img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox2.gif"><img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox2.gif"><img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox2.gif"></span>												        </td>
+                                                            <td align="left" valign="middle" id="player_td_spec_11" style="white-space:nowrap;">													        <img width="15" height="15" title="This player has deep feelings for the club" src="images_2/skill_icons/heart15.png" /><img width="15" height="15" title="This player has great shooting power" src="images_2/skill_icons/shooter15.png" />												        </td>
+                                                            <td align="center" valign="middle" id="player_td_stat_11" style="white-space:nowrap;">													        													        													        													        <img id="ctl00_cphMain_dgPlayers_ctl13_imgThumbup" title="The player is fit to play" src="GRAPHICS/fit-icon1.gif" align="absmiddle" style="border-width:0px;" />													        													        												        </td>
+                                                         </tr>
+                                                         <tr class="ItemStyleGrey" valign="middle" style="white-space:nowrap;">
+                                                            <td align="center" style="white-space:nowrap;">                                                                <img src="http://img.xperteleven.com/shirtnr/squad/20.gif?v=1" border="0" align="absMiddle" class="NoMargImg">												        </td>
+                                                            <td align="center" style="white-space:nowrap;">													        MF												        </td>
+                                                            <td class="PlayerNameColl" align="left" style="white-space:nowrap;">
+                                                               <div class="PlayerId" style="display: none;">                                                                p612804861</div>
+                                                               <a id="ctl00_cphMain_dgPlayers_ctl14_HyperLink1" href="player.aspx?playerid=612804861&amp;dh=2" target="_self">Pantelija Zezelj</a>&nbsp;													        													        													        												        
+                                                            </td>
+                                                            <td align="center" style="white-space:nowrap;">													        20<img src="graphics/space1.gif" class="NoMargImgMiddle" height="16" border="0" width="1">												        </td>
+                                                            <td align="left" id="player_td_skill_12" style="white-space:nowrap;">													        <span nowrap title="6"><img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox1.gif"><img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox1.gif"><img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox1.gif"><img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox2.gif"><img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox2.gif"><img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox2.gif"></span>												        </td>
+                                                            <td align="left" valign="middle" id="player_td_spec_12" style="white-space:nowrap;">													        <img width="15" height="15" title="This player has deep feelings for the club" src="images_2/skill_icons/heart15.png" /><img width="15" height="15" title="This player is allround and can play in any position" src="images_2/skill_icons/allround15.png" /><img width="15" height="15" title="This player has great shooting power" src="images_2/skill_icons/shooter15.png" />												        </td>
+                                                            <td align="center" valign="middle" id="player_td_stat_12" style="white-space:nowrap;">													        													        													        													        <img id="ctl00_cphMain_dgPlayers_ctl14_imgThumbup" title="The player is fit to play" src="GRAPHICS/fit-icon1.gif" align="absmiddle" style="border-width:0px;" />													        													        												        </td>
+                                                         </tr>
+                                                         <tr class="AlternatingItemStyleEcon" valign="middle" style="white-space:nowrap;">
+                                                            <td align="center" style="white-space:nowrap;">                                                                <img src="http://img.xperteleven.com/shirtnr/squad/11.gif?v=1" border="0" align="absMiddle" class="NoMargImg">												        </td>
+                                                            <td align="center" style="white-space:nowrap;">													        F												        </td>
+                                                            <td class="PlayerNameColl" align="left" style="white-space:nowrap;">
+                                                               <div class="PlayerId" style="display: none;">                                                                p212658911</div>
+                                                               <a id="ctl00_cphMain_dgPlayers_ctl15_HyperLink1" href="player.aspx?playerid=212658911&amp;dh=2" target="_self">Godfrey Kilshaw</a>&nbsp;													        													        													        												        
+                                                            </td>
+                                                            <td align="center" style="white-space:nowrap;">													        31<img src="graphics/space1.gif" class="NoMargImgMiddle" height="16" border="0" width="1">												        </td>
+                                                            <td align="left" id="player_td_skill_13" style="white-space:nowrap;">													        <span nowrap title="9"><img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox1.gif"><img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox1.gif"><img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox1.gif"><img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox2.gif"><img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox2.gif"><img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox2.gif"><img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox3.gif"><img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox3.gif"><img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox3.gif"></span>												        </td>
+                                                            <td align="left" valign="middle" id="player_td_spec_13" style="white-space:nowrap;">													        <img width="15" height="15" title="The player is a legend in the club" src="images_2/skill_icons/goldheart15.png" /><img width="15" height="15" title="This player is a specialist in taking freekicks" src="images_2/skill_icons/freekick15.png" /><img width="15" height="15" title="This player has great shooting power" src="images_2/skill_icons/shooter15.png" />												        </td>
+                                                            <td align="center" valign="middle" id="player_td_stat_13" style="white-space:nowrap;">													        													        													        													        <img id="ctl00_cphMain_dgPlayers_ctl15_imgThumbup" title="The player is fit to play" src="GRAPHICS/fit-icon1.gif" align="absmiddle" style="border-width:0px;" />													        													        												        </td>
+                                                         </tr>
+                                                         <tr class="AlternatingItemStyleEcon" valign="middle" style="white-space:nowrap;">
+                                                            <td align="center" style="white-space:nowrap;">                                                                <img src="http://img.xperteleven.com/shirtnr/squad/8.gif?v=1" border="0" align="absMiddle" class="NoMargImg">												        </td>
+                                                            <td align="center" style="white-space:nowrap;">													        F												        </td>
+                                                            <td class="PlayerNameColl" align="left" style="white-space:nowrap;">
+                                                               <div class="PlayerId" style="display: none;">                                                                p212640293</div>
+                                                               <a id="ctl00_cphMain_dgPlayers_ctl16_HyperLink1" href="player.aspx?playerid=212640293&amp;dh=2" target="_self">Andrew Seabury</a>&nbsp;													        													        													        												        
+                                                            </td>
+                                                            <td align="center" style="white-space:nowrap;">													        29<img src="graphics/space1.gif" class="NoMargImgMiddle" height="16" border="0" width="1">												        </td>
+                                                            <td align="left" id="player_td_skill_14" style="white-space:nowrap;">													        <span nowrap title="8"><img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox1.gif"><img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox1.gif"><img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox1.gif"><img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox2.gif"><img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox2.gif"><img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox2.gif"><img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox3.gif"><img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox3.gif"></span>												        </td>
+                                                            <td align="left" valign="middle" id="player_td_spec_14" style="white-space:nowrap;">													        <img width="15" height="15" title="The player is a legend in the club" src="images_2/skill_icons/goldheart15.png" /><img width="15" height="15" title="The player has goal instincts" src="images_2/skill_icons/goalinstinct15.png" />												        </td>
+                                                            <td align="center" valign="middle" id="player_td_stat_14" style="white-space:nowrap;">													        													        													        													        <img id="ctl00_cphMain_dgPlayers_ctl16_imgThumbup" title="The player is fit to play" src="GRAPHICS/fit-icon1.gif" align="absmiddle" style="border-width:0px;" />													        													        												        </td>
+                                                         </tr>
+                                                         <tr class="AlternatingItemStyleEcon" valign="middle" style="white-space:nowrap;">
+                                                            <td align="center" style="white-space:nowrap;">                                                                <img src="http://img.xperteleven.com/shirtnr/squad/23.gif?v=1" border="0" align="absMiddle" class="NoMargImg">												        </td>
+                                                            <td align="center" style="white-space:nowrap;">													        F												        </td>
+                                                            <td class="PlayerNameColl" align="left" style="white-space:nowrap;">
+                                                               <div class="PlayerId" style="display: none;">                                                                p613074031</div>
+                                                               <a id="ctl00_cphMain_dgPlayers_ctl17_HyperLink1" href="player.aspx?playerid=613074031&amp;dh=2" target="_self">Adam Yallop</a>&nbsp;													        													        													        												        
+                                                            </td>
+                                                            <td align="center" style="white-space:nowrap;">													        17<img src="graphics/space1.gif" class="NoMargImgMiddle" height="16" border="0" width="1">												        </td>
+                                                            <td align="left" id="player_td_skill_15" style="white-space:nowrap;">													        <span nowrap title="3"><img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox1.gif"><img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox1.gif"><img  class="spaceBox" align="absmiddle" width="5" height="10" border="0" src="GRAPHICS/bluebox1.gif"></span>												        </td>
+                                                            <td align="left" valign="middle" id="player_td_spec_15" style="white-space:nowrap;">													        <img width="15" height="15" title="This player has deep feelings for the club" src="images_2/skill_icons/heart15.png" /><img width="15" height="15" title="The player's stamina is exceptional" src="images_2/skill_icons/stamina15.png" />												        </td>
+                                                            <td align="center" valign="middle" id="player_td_stat_15" style="white-space:nowrap;">													        													        													        													        <img id="ctl00_cphMain_dgPlayers_ctl17_imgThumbup" title="The player is fit to play" src="GRAPHICS/fit-icon1.gif" align="absmiddle" style="border-width:0px;" />													        													        												        </td>
+                                                         </tr>
+                                                      </table>
+                                                   </td>
+                                                </tr>
+                                             </table>
+                                          </div>
+                                          <!-- section -->							   
+                                          <div class="section">
+                                             <div class="info-title" style="padding: 13px 7px 27px 18px;">
+                                                <div style="float: left;">							            <span id="ctl00_cphMain_lblCount" style="font-size:13px;"><b>Number of players:</b> 16</span>			                        </div>
+                                                <div style="float: left;padding-left: 52px;">			                            			                        </div>
+                                                <div id="div_order_training" style="float: right;">								        											            								    </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <!-- side-column -->	        
+                           <div class="side-column inner-side">
+                              <table cellSpacing="0" width="100%" align="right">
+                                 <tr>
+                                    <td noWrap align="right">
+                                       <script src="rulesMenu/ClickShowHideTeamMenu.js?v=4" type="text/javascript"></script><script src="JavaScript/teamMenu.ascx.js?v=2" type="text/javascript"></script>
+                                       <table class="nedre" width="130" style="margin-left: 15px">
+                                          <tr>
+                                             <td colspan="3" class="tabTD">
+                                                <table class="titleflarp" align="left">
+                                                   <tr>
+                                                      <td class="flarpvanster">
+                                                         <p class="flarpspacer"></p>
+                                                      </td>
+                                                      <td class="flarpmitten"><span id="ctl00_cphMain_ucxTeamMenu_lblHeadTeamMenu" class="flarptitle" style="color:White;">Team menu</span>					</td>
+                                                      <td class="flarphoger">
+                                                         <p class="flarpspacer"></p>
+                                                      </td>
+                                                   </tr>
+                                                </table>
+                                             </td>
+                                          </tr>
+                                          <tr>
+                                             <td class="topLeft">
+                                                <p class="spacer"></p>
+                                             </td>
+                                             <td class="top">
+                                                <p class="spacer"></p>
+                                             </td>
+                                             <td class="topRigth">
+                                                <p class="spacer"></p>
+                                             </td>
+                                          </tr>
+                                          <tr>
+                                             <td class="Left">
+                                                <p class="spacer"></p>
+                                             </td>
+                                             <td class="Box">
+                                                <table class="click-menu" id="click-menu1" cellSpacing="0" cellPadding="0" align="right"				width="130">
+                                                   <tr>
+                                                      <td align="right" nowrap="nowrap">
+                                                         <div class="sektionTop">
+                                                            <div class="bocks3">                        <a id="ctl00_cphMain_ucxTeamMenu_hplTeamPage" href="team.aspx?TeamID=1027839&amp;dh=2" style="display:inline-block;height:15px;width:100%;">Convictz</a></div>
+                                                            <div class="bocks3"><a id="ctl00_cphMain_ucxTeamMenu_hplPlayers" href="players.aspx?TeamID=1027839&amp;Boost=0&amp;dh=2" target="_self" style="display:inline-block;font-weight:bold;height:15px;width:100%;">Player squad</a></div>
+                                                            <div style="PADDING-BOTTOM: 2px; PADDING-TOP: 2px"></div>
+                                                         </div>
+                                                      </td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td align="right">
+                                                         <div class="box1-open"><span id="ctl00_cphMain_ucxTeamMenu_lblThePlayersStatic">The Players</span><IMG src="rulesMenu/images/arrow1.gif"></div>
+                                                         <div class="section">
+                                                            <div class="box2"><a id="ctl00_cphMain_ucxTeamMenu_hplTransfers" href="transfers.aspx?TeamID=1027839&amp;dh=2" target="_self" style="display:inline-block;height:15px;width:100%;">Players In</a></div>
+                                                            <div class="box2"><a id="ctl00_cphMain_ucxTeamMenu_hplGonePlayers" href="gonePlayers.aspx?TeamID=1027839&amp;dh=2" target="_self" style="display:inline-block;height:15px;width:100%;">Players Out</a></div>
+                                                         </div>
+                                                      </td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td align="right">
+                                                         <div class="box1-open"><span id="ctl00_cphMain_ucxTeamMenu_lblMatchesStatic">The Matches</span><IMG src="rulesMenu/images/arrow1.gif"></div>
+                                                         <div class="section">
+                                                            <div class="box2"><a id="ctl00_cphMain_ucxTeamMenu_hplOldGames" href="games.aspx?Sel=O&amp;TeamID=1027839&amp;dh=2" target="_self" style="display:inline-block;height:15px;width:100%;">Matches</a></div>
+                                                         </div>
+                                                      </td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td align="right">
+                                                         <div class="box1-open"><span id="ctl00_cphMain_ucxTeamMenu_lblStatsStatic">Statistics</span><IMG src="rulesMenu/images/arrow1.gif"></div>
+                                                         <div class="section">
+                                                            <div class="box2"><a id="ctl00_cphMain_ucxTeamMenu_hplStats" href="statsTeam.aspx?Sel=M&amp;TeamID=1027839&amp;dh=2" style="display:inline-block;height:15px;width:100%;">Player statistics</a></div>
+                                                         </div>
+                                                      </td>
+                                                   </tr>
+                                                   <tr>
+                                                      <td align="right">
+                                                         <table cellSpacing="0" cellPadding="0">
+                                                            <tr>
+                                                               <td align="right"><IMG src="graphics/space4.gif"></td>
+                                                            </tr>
+                                                         </table>
+                                                      </td>
+                                                   </tr>
+                                                </table>
+                                             </td>
+                                             <td class="Rigth">
+                                                <p class="spacer"></p>
+                                             </td>
+                                          </tr>
+                                          <tr>
+                                             <td class="bottomLeft">
+                                                <p class="spacer"></p>
+                                             </td>
+                                             <td class="bottom">
+                                                <p class="spacer"></p>
+                                             </td>
+                                             <td class="bottomRigth">
+                                                <p class="spacer"></p>
+                                             </td>
+                                          </tr>
+                                       </table>
+                                       <script type="text/javascript">		if (!document.getElementById) 		{			document.write('<link rel="stylesheet" href="rulesMenu/ClickShowHideTeamMenuOld.css?v=6" type="text/css" />'); 		}		else		{				document.write('<link rel="stylesheet" href="rulesMenu/ClickShowHideTeamMenu.css?v=7" type="text/css" />'); 		var clickMenu1 = new ClickShowHideMenu('click-menu1');		var icount = 2;				clickMenu1.init('');			}	</script><script language="JavaScript">		cnt=0;		toggle = true;		function blinkIt() {		if (false == true){		var theHyperlink; 		theHyperlink = document.getElementById('usxTeamMenu_hplSponsorActivity');		theHyperlink.style.color=(toggle)?'red':'#3333cc';		toggle=!toggle; 		if (cnt++ < 21) setTimeout('blinkIt()',250);		}}</script>
+                                    </td>
+                                 </tr>
+                              </table>
+                           </div>
+                        </div>
+                        <script type="text/javascript">	function CheckBoost(chbBoost)	{	    	    var sValue = jQuery('#ctl00_cphMain_txtEcon').val();		sValue = sValue.replace('econ', '');		sValue = RemoveSpaces(sValue);		if (chbBoost.checked) 		{				if (sValue >= 130000)			{				sValue = parseInt(sValue) - 130000;			}			else			{				chbBoost.checked = false;			}		}		else		{				sValue = parseInt(sValue) + 130000;		}		jQuery('#ctl00_cphMain_txtEcon').val(ThousandSeparator(sValue) + ' econ');	}</script>                        
+                     </div>
+                  </div>
+               </td>
+               <td id="ctl00_MainRightAd" class="MainRightAd" style="vertical-align: top;">                            </td>
+            </tr>
+            <tr class="MainFooter">
+               <td colspan="2">
+                  <div id="LeftFooter">
+                     <ul>
+                        <li>                            <a id="ctl00_hplContactUs" href="kontakt.aspx">Contact</a></li>
+                        <li>                            <a id="ctl00_hplChangeLog" href="changeLog.aspx">Changelog</a></li>
+                        <li>                            <a id="ctl00_hplBlog" href="http://xperteleven.info/" target="_blank">Blog</a></li>
+                        <li>                            <a id="ctl00_hplAdvertise" href="advertise.aspx">Advertise</a></li>
+                        <li class="last">                            <a id="ctl00_hplPrivacy" href="privacy.aspx">Privacy</a></li>
+                     </ul>
+                  </div>
+                  <div id="RightFooter">                    <span id="ctl00_lblCopyRightResource1">Â© Xpert Eleven AB 2003 - 2014</span>                </div>
+                  <div class="clear">                </div>
+               </td>
+            </tr>
+         </table>
+         <div id="backgroundTourPopup">    </div>
+         <div id="ad1_footer" class="hAdContent">
+            <!--  Rubicon Project Tag --><!--  Site: Xpert Eleven (Netric)   Zone: Xperteleven 728x90 Above The Fold   Size: Leaderboard  --><script language="JavaScript" type="text/javascript">var rp_account   = '11030';var rp_site      = '26594';var rp_zonesize  = '105858-2';var rp_adtype    = 'js';var rp_smartfile = '[SMART FILE URL]';</script><script type="text/javascript" src="https://ads.rubiconproject.com/ad/11030.js"></script>    
+         </div>
+         <script type="text/javascript">        $(document).ready(function() {                   if(window.name.indexOf('iframe_canvas_fb') != -1)            {                $("#TopIconLogout").hide();                document.getElementById('TopIconLogout').style.display = 'none';                if("" != "True")                {                    window.top.location.reload(true);                }            }            var topAd = document.getElementById('TopAd_inline');            var adFooter = document.getElementById('ad1_footer');            if(topAd != null && adFooter != null)            {                topAd.appendChild(adFooter);                adFooter.className = "sAdContent";            }        }        )    </script>          
+      </form>
+      <script type="text/javascript">var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));</script><script type="text/javascript">try {var pageTracker = _gat._getTracker("UA-1703672-1");pageTracker._setDomainName(".xperteleven.com");pageTracker._trackPageview();} catch(err) {}</script>         
+   </body>
+</html>
