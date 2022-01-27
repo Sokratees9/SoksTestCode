@@ -1,10 +1,12 @@
 package org.okane.tests;
 import java.io.BufferedReader;
+import java.io.Console;
 import java.io.DataOutputStream;
 import java.io.InputStreamReader;
 import java.io.UnsupportedEncodingException;
 import java.net.CookieHandler;
 import java.net.CookieManager;
+import java.net.HttpURLConnection;
 import java.net.URL;
 import java.net.URLEncoder;
 import java.util.ArrayList;
@@ -13,8 +15,7 @@ import java.util.List;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
-
-import sun.net.www.protocol.http.HttpURLConnection;
+import org.jsoup.select.Elements;
 
 public class HttpUrlConnectionExample {
 
@@ -33,19 +34,30 @@ public class HttpUrlConnectionExample {
 		CookieHandler.setDefault(new CookieManager());
 
 		// 1. Send a "GET" request, so that you can extract the form's data.
-		String page = http.GetPageContent(url);
+		String page = http.getPageContent(url);
+		BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+	    String password = reader.readLine();
+//		String password = System.console().readLine();
 		String postParams = http.getFormParams(page, "Sokratees9",
-				"rlbjr866");
+				password);
 
 		// 2. Construct above post's content and then send a POST request for
 		// authentication
 		http.sendPost(url, postParams);
 
 		// 3. success then go to the team.
-		String result = http.GetPageContent("http://www.xperteleven.com/players.aspx?TeamID=1027839&Boost=0&dh=2");
+		String result = http.getPageContent("http://www.xperteleven.com/players.aspx?TeamID=1049789&Boost=0&dh=2");
 		System.out.println(result);
 		
-		
+		http.parseTeam(result);
+	}
+
+	private void parseTeam(String teams) {
+		Document doc = Jsoup.parse(teams);
+		Element listOfPlayers = doc.getElementById("ctl00_cphMain_dgPlayers");
+		Elements allElements = listOfPlayers.getAllElements();
+		int i = 0;
+		i++;
 	}
 
 	private void sendPost(String url, String postParams) throws Exception {
@@ -99,7 +111,7 @@ public class HttpUrlConnectionExample {
 
 	}
 
-	private String GetPageContent(String url) throws Exception {
+	private String getPageContent(String url) throws Exception {
 
 		URL obj = new URL(url);
 		conn = (HttpURLConnection) obj.openConnection();
